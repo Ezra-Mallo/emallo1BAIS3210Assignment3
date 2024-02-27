@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34601.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "emallo1BAIS3210Assignment3", "emallo1BAIS3210Assignment3.dtproj", "{6E623DE1-5EC4-4690-ACB7-E6900C3B323F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Folder", "Solution Folder", "{E9D865BC-6964-4629-B6F4-161218DD834C}"
+	ProjectSection(SolutionItems) = preProject
+		2nd Assignment SQLQuery.sql = 2nd Assignment SQLQuery.sql
+		Empty_Northwind_Mart.sql = Empty_Northwind_Mart.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E623DE1-5EC4-4690-ACB7-E6900C3B323F}.Development|Default.ActiveCfg = Development
+		{6E623DE1-5EC4-4690-ACB7-E6900C3B323F}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {164C319B-F112-4639-BE3F-E4B0D26FE58C}
+	EndGlobalSection
+EndGlobal
