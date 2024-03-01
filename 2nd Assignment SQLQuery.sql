@@ -18,6 +18,12 @@ CREATE TABLE CustomerDimension(
 ALTER TABLE CustomerDimension
     ADD CONSTRAINT PK_CustomerDimensionCustomerKey PRIMARY KEY NONCLUSTERED (CustomerKey)
 
+
+
+
+
+
+
 --EmployeeDimension
 CREATE TABLE EmployeeDimension(
 	EmployeeKey INT IDENTITY(1,1) NOT NULL,
@@ -31,18 +37,25 @@ ALTER TABLE EmployeeDimension
 
 
 
+
+
+
+
 --ProductionDimension
 CREATE TABLE ProductDimension(
 	ProductKey INT IDENTITY(1,1) NOT NULL,
 	ProductName NVARCHAR(40) NOT NULL,
 	ProductID INT NOT NULL,
-	SupplierName INT,
+	SupplierName NVARCHAR(40),
 	CategoryName NVARCHAR(15) NOT NULL,
-	ListUnitPrice MONEY ,
+	ListUnitPrice MONEY,
 )
 --Adding contraints
 ALTER TABLE ProductDimension
     ADD CONSTRAINT PK_ProductDimensionProductKey PRIMARY KEY NONCLUSTERED (ProductKey)
+
+
+
 
 
 
@@ -61,29 +74,32 @@ ALTER TABLE ShipperDimension
 
 
 
+
+
+
+
 --TimeDimension
 CREATE TABLE TimeDimension(
 	TimeKey INT IDENTITY(1,1) NOT NULL,
-	"TheDate (shipped date)" DATE NOT NULL,
-	"DayOfWeek (number)" INT NOT NULL,
-	DayOfWeekName NCHAR(12) NOT NULL,
-	"Month (number)" INT NOT NULL,
-	MonthName NCHAR(12) NOT NULL,
-	"Year (number)" INT NOT NULL,
-	"Quarter (number)" INT NOT NULL,
-	"DayOfYear (number)" INT NOT NULL,
-	"Weekday (character, ‘Y’ or ‘N’)" BIT NOT NULL,
-	"WeekOfYear (number)" INT NOT NULL
+	"TheDate (shipped date)" DATE,
+	"DayOfWeek (number)" INT,
+	DayOfWeekName NCHAR(12),
+	"Month (number)" INT,
+	MonthName NCHAR(12),
+	"Year (number)" INT,
+	"Quarter (number)" INT,
+	"DayOfYear (number)" INT,
+	"Weekday (character, ‘Y’ or ‘N’)" NCHAR(1),
+	"WeekOfYear (number)" INT
 )
 --Adding contraints
 ALTER TABLE TimeDimension
     ADD CONSTRAINT PK_TimeDimensionTimeKey PRIMARY KEY NONCLUSTERED (TimeKey)
 
-
-
-
-
+ 
 	
+
+
 
 --SaleFact
 CREATE TABLE SaleFact(
@@ -92,14 +108,12 @@ CREATE TABLE SaleFact(
 	ProductKey INT NOT NULL,
 	ShipperKey INT NOT NULL,
 	TimeKey INT NOT NULL,
-	OrderID SMALLINT NOT NULL,
 	OrderDate DATETIME,
 	RequiredDate DATETIME,
 	ShippedDate DATETIME,
-	Freight MONEY,
-	LineItemQuantity INT NOT NULL,
-	LineItemDiscount INT NOT NULL,
-	LineItemFreight MONEY NOT NULL,
+	LineItemQuantity INT NOT NULL,		--From Order Details Table (not null)
+	LineItemDiscount REAL NOT NULL,		--From Order Details Table (not null)
+	LineItemFreight MONEY,				--From Orders Table (null)
 	LineItemTotal MONEY NOT NULL
 	)
 -- Defining non-clustered indexes on foreign key columns in the fact table

@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="76"
-  DTS:VersionGUID="{E3F43CFD-ABA1-49A1-BC77-A8B00FDBC68D}">
+  DTS:VersionBuild="104"
+  DTS:VersionGUID="{D9507C43-498C-4142-B195-938290170A2B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtnbpyfHzO0+ruT8yfK9UuwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACr5E/AyADxB+TtSnlunaNTA07bg4DYA09JjhwjMZzS0AAAAAAOgAAAAAIAACAAAABynPTSCnaRJppcpW2ZyA+Xkq7OF0yy8WY/UXTcC1893xAAAAAyKMSV3SAvzoQYooES6AMlQAAAAAuVB1MpOl7pO6uzMMVz2rcfSWsjo9zFV3tnS04dVUO97D+GzXaUpQzJo6LdSazMrKAusRCel/1EIqy1r3bCXVQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtnbpyfHzO0+ruT8yfK9UuwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADECmDklLt7jRDFlZ2uTb1WWf/4u+fuPVq9tTgLJaPbrwAAAAAOgAAAAAIAACAAAACkxxbOLGnZ/7/mRhKy9NDNd3JTGLffAjCQw06CtzZihxAAAACo+dfwBjrMqVu2OMvpnYZSQAAAAByN/wWN+vpZiFL4LwTqSpo73XzoVMbRjiUoTe7ZBfFvTp0DE3Bh4ydguOXu+jIBSCtN+mzmmplRB1q3QI79d90</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -38,11 +38,11 @@
       DTS:ObjectName="dev1.baist.ca.Northwind.emallo1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=dev1.baist.ca;User ID=emallo1;Initial Catalog=Northwind;Application Name=SSIS-Package-{9B5AC992-7770-4C9C-95F7-630CEAEA628B}dev1.baist.ca.Northwind.emallo1;">
+          DTS:ConnectionString="Data Source=dev1.baist.ca;User ID=emallo1;Initial Catalog=Northwind;Persist Security Info=True;Application Name=SSIS-Package-{9B5AC992-7770-4C9C-95F7-630CEAEA628B}dev1.baist.ca.Northwind.emallo1;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtnbpyfHzO0+ruT8yfK9UuwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADWhvEf3zSCTqd2eCC0Cb8oXPKZimFY4Vor/jE6ereO1gAAAAAOgAAAAAIAACAAAACfuzKGa/B6RHgfstg2IFYrb94QXd967a/2GqE9HQwHKxAAAABHf2CLhFf0URllWq5KJqhGQAAAAFVWWUfcWFj3YZBuuZ26gqLRmN0X8wgxyflSmjp1vhWMz1UKovgG6J+TpacJuaoXDiQOq3X/dh3G2j4dc+GzBuc</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtnbpyfHzO0+ruT8yfK9UuwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC700mumyBeBRUtMOJOtnJar4bvVreEX9ZKcdBe++P7owAAAAAOgAAAAAIAACAAAABc9xaXlMi2/6OgUaG4K7Ixvq1AJjoCAuu5hOzlPqWONRAAAABE0EcS2KBLLCKV1IVFS085QAAAACvanXlmQ6x+sYaF2X/hxquKF3hj3y9obtr/zjZVLfGWoOqQ7iBddPc/LMaZnKwEkZSZqOMDMEJKy0V2zeCwo7I</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -68,7 +68,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 0"
-              DTS:DTSID="{45613C8A-44BD-4C07-8154-8FC42A493F6A}"
+              DTS:DTSID="{572E3E14-FB56-49E3-880C-C816FB911ED1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -77,7 +77,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 1"
-              DTS:DTSID="{FB786C5A-7770-4AA0-AADB-F6BFFB75E1AD}"
+              DTS:DTSID="{F5713C5A-D59D-4F60-A9A9-2F62DF44A296}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -86,7 +86,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 2"
-              DTS:DTSID="{008C8FE8-C29E-47EB-B52A-5E327C67BB4B}"
+              DTS:DTSID="{2CD1BC49-73F1-47C2-B025-DCB1C4B4DEB1}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1626,24 +1626,24 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                   name="ADO NET Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Load NorthwindMart EmployeeDimension\ADO NET Destination(EMployeeDimension).Inputs[ADO NET Destination Input].Columns[Copy of EmployeeName]"
+                      refId="Package\Load NorthwindMart EmployeeDimension\ADO NET Destination(EMployeeDimension).Inputs[ADO NET Destination Input].Columns[EmployeeName]"
                       cachedDataType="wstr"
                       cachedLength="31"
-                      cachedName="Copy of EmployeeName"
+                      cachedName="EmployeeName"
                       externalMetadataColumnId="Package\Load NorthwindMart EmployeeDimension\ADO NET Destination(EMployeeDimension).Inputs[ADO NET Destination Input].ExternalColumns[EmployeeName]"
-                      lineageId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of EmployeeName]" />
+                      lineageId="Package\Load NorthwindMart EmployeeDimension\Derived EmployeeName.Outputs[Derived Column Output].Columns[EmployeeName]" />
                     <inputColumn
-                      refId="Package\Load NorthwindMart EmployeeDimension\ADO NET Destination(EMployeeDimension).Inputs[ADO NET Destination Input].Columns[Copy of EmployeeID]"
+                      refId="Package\Load NorthwindMart EmployeeDimension\ADO NET Destination(EMployeeDimension).Inputs[ADO NET Destination Input].Columns[EmployeeID]"
                       cachedDataType="i4"
-                      cachedName="Copy of EmployeeID"
+                      cachedName="EmployeeID"
                       externalMetadataColumnId="Package\Load NorthwindMart EmployeeDimension\ADO NET Destination(EMployeeDimension).Inputs[ADO NET Destination Input].ExternalColumns[EmployeeID]"
-                      lineageId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of EmployeeID]" />
+                      lineageId="Package\Load NorthwindMart EmployeeDimension\ADO NET Source (Employee Table).Outputs[ADO NET Source Output].Columns[EmployeeID]" />
                     <inputColumn
-                      refId="Package\Load NorthwindMart EmployeeDimension\ADO NET Destination(EMployeeDimension).Inputs[ADO NET Destination Input].Columns[Copy of HireDate]"
-                      cachedDataType="date"
-                      cachedName="Copy of HireDate"
+                      refId="Package\Load NorthwindMart EmployeeDimension\ADO NET Destination(EMployeeDimension).Inputs[ADO NET Destination Input].Columns[HireDate]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="HireDate"
                       externalMetadataColumnId="Package\Load NorthwindMart EmployeeDimension\ADO NET Destination(EMployeeDimension).Inputs[ADO NET Destination Input].ExternalColumns[HireDate]"
-                      lineageId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of HireDate]" />
+                      lineageId="Package\Load NorthwindMart EmployeeDimension\ADO NET Source (Employee Table).Outputs[ADO NET Source Output].Columns[HireDate]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1854,133 +1854,6 @@ FROM Employees</property>
               </outputs>
             </component>
             <component
-              refId="Package\Load NorthwindMart EmployeeDimension\Data Conversion"
-              componentClassID="Microsoft.DataConvert"
-              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-              description="Data Conversion"
-              name="Data Conversion"
-              usesDispositions="true">
-              <inputs>
-                <input
-                  refId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Inputs[Data Conversion Input]"
-                  name="Data Conversion Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Inputs[Data Conversion Input].Columns[HireDate]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="HireDate"
-                      lineageId="Package\Load NorthwindMart EmployeeDimension\ADO NET Source (Employee Table).Outputs[ADO NET Source Output].Columns[HireDate]" />
-                    <inputColumn
-                      refId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Inputs[Data Conversion Input].Columns[EmployeeName]"
-                      cachedDataType="wstr"
-                      cachedLength="31"
-                      cachedName="EmployeeName"
-                      lineageId="Package\Load NorthwindMart EmployeeDimension\Derived EmployeeName.Outputs[Derived Column Output].Columns[EmployeeName]" />
-                    <inputColumn
-                      refId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Inputs[Data Conversion Input].Columns[EmployeeID]"
-                      cachedDataType="i4"
-                      cachedName="EmployeeID"
-                      lineageId="Package\Load NorthwindMart EmployeeDimension\ADO NET Source (Employee Table).Outputs[ADO NET Source Output].Columns[EmployeeID]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Outputs[Data Conversion Output]"
-                  exclusionGroup="1"
-                  name="Data Conversion Output"
-                  synchronousInputId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of HireDate]"
-                      dataType="date"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of HireDate]"
-                      name="Copy of HireDate"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Load NorthwindMart EmployeeDimension\ADO NET Source (Employee Table).Outputs[ADO NET Source Output].Columns[HireDate]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of EmployeeName]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      length="31"
-                      lineageId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of EmployeeName]"
-                      name="Copy of EmployeeName"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Load NorthwindMart EmployeeDimension\Derived EmployeeName.Outputs[Derived Column Output].Columns[EmployeeName]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of EmployeeID]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of EmployeeID]"
-                      name="Copy of EmployeeID"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Load NorthwindMart EmployeeDimension\ADO NET Source (Employee Table).Outputs[ADO NET Source Output].Columns[EmployeeID]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Outputs[Data Conversion Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Data Conversion Error Output"
-                  synchronousInputId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
               refId="Package\Load NorthwindMart EmployeeDimension\Derived EmployeeName"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
@@ -2076,13 +1949,8 @@ FROM Employees</property>
               name="ADO NET Source Output"
               startId="Package\Load NorthwindMart EmployeeDimension\ADO NET Source (Employee Table).Outputs[ADO NET Source Output]" />
             <path
-              refId="Package\Load NorthwindMart EmployeeDimension.Paths[Data Conversion Output]"
-              endId="Package\Load NorthwindMart EmployeeDimension\ADO NET Destination(EMployeeDimension).Inputs[ADO NET Destination Input]"
-              name="Data Conversion Output"
-              startId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Outputs[Data Conversion Output]" />
-            <path
               refId="Package\Load NorthwindMart EmployeeDimension.Paths[Derived Column Output]"
-              endId="Package\Load NorthwindMart EmployeeDimension\Data Conversion.Inputs[Data Conversion Input]"
+              endId="Package\Load NorthwindMart EmployeeDimension\ADO NET Destination(EMployeeDimension).Inputs[ADO NET Destination Input]"
               name="Derived Column Output"
               startId="Package\Load NorthwindMart EmployeeDimension\Derived EmployeeName.Outputs[Derived Column Output]" />
           </paths>
@@ -2456,6 +2324,339 @@ JOIN Categories AS Cat ON Prod.CategoryID = Cat.CategoryID</property>
           version="1">
           <components>
             <component
+              refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server."
+              name="ADO NET CustomerDimension Source"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement used by the component to extract data."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT
+    
+   CuDim.CustomerKey AS CustomerKey,
+    
+   EmDim.EmployeeKey AS EmployeeKey,
+    
+   PrDim.ProductKey AS ProductKey,
+    
+   ShDim.ShipperKey AS ShipperKey,
+    
+   Ord.OrderDate AS OrderDate,
+   
+   Ord.ShippedDate AS ShippedDate,
+
+   Ord.RequiredDate AS RequiredDate,
+
+   TiDim.TimeKey AS TimeKey,
+    
+   OrdDet.Quantity AS LineItemQuantity,
+    
+   OrdDet.Discount AS LineItemDiscount,
+    
+   Ord.Freight AS LineItemFreight,
+    
+   (OrdDet.UnitPrice * OrdDet.Quantity * (1 - OrdDet.Discount)) AS     LineItemTotal
+
+FROM
+ Northwind.dbo.Orders As Ord
+    
+INNER JOIN Northwind.dbo.[Order Details] AS OrdDet ON     OrdDet.OrderID = Ord.OrderID
+    
+INNER JOIN emallo1.dbo.CustomerDimension AS CuDim ON     CuDIm.CustomerID = Ord.CustomerID
+    
+INNER JOIN emallo1.dbo.EmployeeDimension AS EmDim ON     EmDim.EmployeeID = Ord.EmployeeID 
+    
+INNER JOIN emallo1.dbo.ProductDimension AS PrDim ON    PrDim.ProductID = OrdDet.ProductID
+    
+INNER JOIN emallo1.dbo.ShipperDimension AS ShDim ON    ShDim.ShipperID = Ord.ShipVia
+	
+INNER JOIN emallo1.dbo.TimeDimension AS TiDim ON TiDim.   [TheDate (shipped date)] = Ord.ShippedDate;</property>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether to allow non-string external columns to be implicitly converted to strings at the output columns."
+                  name="AllowImplicitStringConversion">true</property>
+                <property
+                  dataType="System.String"
+                  description="The Source database table name."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specify the mode to retrieve external column information"
+                  name="AccessMode"
+                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">2</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[dev1.baist.ca.Northwind.emallo1]"
+                  connectionManagerRefId="Package.ConnectionManagers[dev1.baist.ca.Northwind.emallo1]"
+                  description="Managed connection manager"
+                  name="IDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output]"
+                  name="ADO NET Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[CustomerKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[CustomerKey]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[CustomerKey]"
+                      name="CustomerKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[EmployeeKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[EmployeeKey]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[EmployeeKey]"
+                      name="EmployeeKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[ProductKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[ProductKey]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[ProductKey]"
+                      name="ProductKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[ShipperKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[ShipperKey]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[ShipperKey]"
+                      name="ShipperKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[OrderDate]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[OrderDate]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[OrderDate]"
+                      name="OrderDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[ShippedDate]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[ShippedDate]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[ShippedDate]"
+                      name="ShippedDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[RequiredDate]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[RequiredDate]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[RequiredDate]"
+                      name="RequiredDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[TimeKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[TimeKey]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[TimeKey]"
+                      name="TimeKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[LineItemQuantity]"
+                      dataType="i2"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[LineItemQuantity]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[LineItemQuantity]"
+                      name="LineItemQuantity"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[LineItemDiscount]"
+                      dataType="r4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[LineItemDiscount]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[LineItemDiscount]"
+                      name="LineItemDiscount"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[LineItemFreight]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[LineItemFreight]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[LineItemFreight]"
+                      name="LineItemFreight"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[LineItemTotal]"
+                      dataType="r4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[LineItemTotal]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[LineItemTotal]"
+                      name="LineItemTotal"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[CustomerKey]"
+                      dataType="i4"
+                      name="CustomerKey" />
+                    <externalMetadataColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[EmployeeKey]"
+                      dataType="i4"
+                      name="EmployeeKey" />
+                    <externalMetadataColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[ProductKey]"
+                      dataType="i4"
+                      name="ProductKey" />
+                    <externalMetadataColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[ShipperKey]"
+                      dataType="i4"
+                      name="ShipperKey" />
+                    <externalMetadataColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[OrderDate]"
+                      dataType="dbTimeStamp"
+                      name="OrderDate" />
+                    <externalMetadataColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[ShippedDate]"
+                      dataType="dbTimeStamp"
+                      name="ShippedDate" />
+                    <externalMetadataColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[RequiredDate]"
+                      dataType="dbTimeStamp"
+                      name="RequiredDate" />
+                    <externalMetadataColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[TimeKey]"
+                      dataType="i4"
+                      name="TimeKey" />
+                    <externalMetadataColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[LineItemQuantity]"
+                      dataType="i2"
+                      name="LineItemQuantity" />
+                    <externalMetadataColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[LineItemDiscount]"
+                      dataType="r4"
+                      name="LineItemDiscount" />
+                    <externalMetadataColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[LineItemFreight]"
+                      dataType="cy"
+                      name="LineItemFreight" />
+                    <externalMetadataColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].ExternalColumns[LineItemTotal]"
+                      dataType="r4"
+                      name="LineItemTotal" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output]"
+                  isErrorOut="true"
+                  name="ADO NET Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[CustomerKey]"
+                      dataType="i4"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[CustomerKey]"
+                      name="CustomerKey" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[EmployeeKey]"
+                      dataType="i4"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[EmployeeKey]"
+                      name="EmployeeKey" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[ProductKey]"
+                      dataType="i4"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[ProductKey]"
+                      name="ProductKey" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[ShipperKey]"
+                      dataType="i4"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[ShipperKey]"
+                      name="ShipperKey" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[OrderDate]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[OrderDate]"
+                      name="OrderDate" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[ShippedDate]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[ShippedDate]"
+                      name="ShippedDate" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[RequiredDate]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[RequiredDate]"
+                      name="RequiredDate" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[TimeKey]"
+                      dataType="i4"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[TimeKey]"
+                      name="TimeKey" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[LineItemQuantity]"
+                      dataType="i2"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[LineItemQuantity]"
+                      name="LineItemQuantity" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[LineItemDiscount]"
+                      dataType="r4"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[LineItemDiscount]"
+                      name="LineItemDiscount" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[LineItemFreight]"
+                      dataType="cy"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[LineItemFreight]"
+                      name="LineItemFreight" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[LineItemTotal]"
+                      dataType="r4"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[LineItemTotal]"
+                      name="LineItemTotal" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Load NorthwindMart SaleFact\ADO NET Destination"
               componentClassID="Microsoft.ManagedComponentHost"
               contactInfo="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
@@ -2505,11 +2706,77 @@ JOIN Categories AS Cat ON Prod.CategoryID = Cat.CategoryID</property>
                   name="ADO NET Destination Input">
                   <inputColumns>
                     <inputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[CustomerKey]"
+                      cachedDataType="i4"
+                      cachedName="CustomerKey"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[CustomerKey]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[CustomerKey]" />
+                    <inputColumn
                       refId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[EmployeeKey]"
                       cachedDataType="i4"
                       cachedName="EmployeeKey"
                       externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[EmployeeKey]"
-                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].Columns[EmployeeKey]" />
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[EmployeeKey]" />
+                    <inputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[ProductKey]"
+                      cachedDataType="i4"
+                      cachedName="ProductKey"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[ProductKey]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[ProductKey]" />
+                    <inputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[ShipperKey]"
+                      cachedDataType="i4"
+                      cachedName="ShipperKey"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[ShipperKey]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[ShipperKey]" />
+                    <inputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[OrderDate]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="OrderDate"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[OrderDate]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[OrderDate]" />
+                    <inputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[ShippedDate]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="ShippedDate"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[ShippedDate]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[ShippedDate]" />
+                    <inputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[RequiredDate]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="RequiredDate"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[RequiredDate]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[RequiredDate]" />
+                    <inputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[TimeKey]"
+                      cachedDataType="i4"
+                      cachedName="TimeKey"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[TimeKey]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[TimeKey]" />
+                    <inputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[LineItemQuantity]"
+                      cachedDataType="i2"
+                      cachedName="LineItemQuantity"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[LineItemQuantity]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[LineItemQuantity]" />
+                    <inputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[LineItemDiscount]"
+                      cachedDataType="r4"
+                      cachedName="LineItemDiscount"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[LineItemDiscount]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[LineItemDiscount]" />
+                    <inputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[LineItemFreight]"
+                      cachedDataType="cy"
+                      cachedName="LineItemFreight"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[LineItemFreight]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[LineItemFreight]" />
+                    <inputColumn
+                      refId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[LineItemTotal]"
+                      cachedDataType="r4"
+                      cachedName="LineItemTotal"
+                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[LineItemTotal]"
+                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output].Columns[LineItemTotal]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2534,10 +2801,6 @@ JOIN Categories AS Cat ON Prod.CategoryID = Cat.CategoryID</property>
                       dataType="i4"
                       name="TimeKey" />
                     <externalMetadataColumn
-                      refId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[OrderID]"
-                      dataType="i2"
-                      name="OrderID" />
-                    <externalMetadataColumn
                       refId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[OrderDate]"
                       dataType="dbTimeStamp"
                       name="OrderDate" />
@@ -2550,18 +2813,12 @@ JOIN Categories AS Cat ON Prod.CategoryID = Cat.CategoryID</property>
                       dataType="dbTimeStamp"
                       name="ShippedDate" />
                     <externalMetadataColumn
-                      refId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Freight]"
-                      dataType="numeric"
-                      name="Freight"
-                      precision="19"
-                      scale="255" />
-                    <externalMetadataColumn
                       refId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[LineItemQuantity]"
                       dataType="i4"
                       name="LineItemQuantity" />
                     <externalMetadataColumn
                       refId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[LineItemDiscount]"
-                      dataType="i4"
+                      dataType="r4"
                       name="LineItemDiscount" />
                     <externalMetadataColumn
                       refId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[LineItemFreight]"
@@ -2603,246 +2860,13 @@ JOIN Categories AS Cat ON Prod.CategoryID = Cat.CategoryID</property>
                 </output>
               </outputs>
             </component>
-            <component
-              refId="Package\Load NorthwindMart SaleFact\ADO NET Source"
-              componentClassID="Microsoft.ManagedComponentHost"
-              contactInfo="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
-              description="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server."
-              name="ADO NET Source"
-              usesDispositions="true"
-              version="4">
-              <properties>
-                <property
-                  dataType="System.String"
-                  description="Specifies the SQL statement used by the component to extract data."
-                  expressionType="Notify"
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
-                <property
-                  dataType="System.Int32"
-                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">30</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Indicates whether to allow non-string external columns to be implicitly converted to strings at the output columns."
-                  name="AllowImplicitStringConversion">true</property>
-                <property
-                  dataType="System.String"
-                  description="The Source database table name."
-                  expressionType="Notify"
-                  name="TableOrViewName"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."EmployeeDimension"</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specify the mode to retrieve external column information"
-                  name="AccessMode"
-                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">0</property>
-                <property
-                  dataType="System.String"
-                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Load NorthwindMart SaleFact\ADO NET Source.Connections[IDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[dev1.baist.ca.emallo1.emallo1]"
-                  connectionManagerRefId="Package.ConnectionManagers[dev1.baist.ca.emallo1.emallo1]"
-                  description="Managed connection manager"
-                  name="IDbConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output]"
-                  name="ADO NET Source Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].Columns[EmployeeKey]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[EmployeeKey]"
-                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].Columns[EmployeeKey]"
-                      name="EmployeeKey"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].Columns[EmployeeName]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[EmployeeName]"
-                      length="31"
-                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].Columns[EmployeeName]"
-                      name="EmployeeName"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].Columns[EmployeeID]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[EmployeeID]"
-                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].Columns[EmployeeID]"
-                      name="EmployeeID"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].Columns[HireDate]"
-                      dataType="dbTimeStamp"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[HireDate]"
-                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].Columns[HireDate]"
-                      name="HireDate"
-                      truncationRowDisposition="FailComponent" />
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[EmployeeKey]"
-                      dataType="i4"
-                      name="EmployeeKey" />
-                    <externalMetadataColumn
-                      refId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[EmployeeName]"
-                      dataType="wstr"
-                      length="31"
-                      name="EmployeeName" />
-                    <externalMetadataColumn
-                      refId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[EmployeeID]"
-                      dataType="i4"
-                      name="EmployeeID" />
-                    <externalMetadataColumn
-                      refId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[HireDate]"
-                      dataType="dbTimeStamp"
-                      name="HireDate" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Error Output]"
-                  isErrorOut="true"
-                  name="ADO NET Source Error Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[EmployeeKey]"
-                      dataType="i4"
-                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[EmployeeKey]"
-                      name="EmployeeKey" />
-                    <outputColumn
-                      refId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[EmployeeName]"
-                      dataType="wstr"
-                      length="31"
-                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[EmployeeName]"
-                      name="EmployeeName" />
-                    <outputColumn
-                      refId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[EmployeeID]"
-                      dataType="i4"
-                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[EmployeeID]"
-                      name="EmployeeID" />
-                    <outputColumn
-                      refId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[HireDate]"
-                      dataType="dbTimeStamp"
-                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[HireDate]"
-                      name="HireDate" />
-                    <outputColumn
-                      refId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Load NorthwindMart SaleFact\Data Conversion"
-              componentClassID="Microsoft.DataConvert"
-              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-              description="Data Conversion"
-              name="Data Conversion"
-              usesDispositions="true">
-              <inputs>
-                <input
-                  refId="Package\Load NorthwindMart SaleFact\Data Conversion.Inputs[Data Conversion Input]"
-                  name="Data Conversion Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Load NorthwindMart SaleFact\Data Conversion.Inputs[Data Conversion Input].Columns[EmployeeKey]"
-                      cachedDataType="i4"
-                      cachedName="EmployeeKey"
-                      lineageId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].Columns[EmployeeKey]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Load NorthwindMart SaleFact\Data Conversion.Outputs[Data Conversion Output]"
-                  exclusionGroup="1"
-                  name="Data Conversion Output"
-                  synchronousInputId="Package\Load NorthwindMart SaleFact\Data Conversion.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Load NorthwindMart SaleFact\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of EmployeeKey]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Load NorthwindMart SaleFact\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of EmployeeKey]"
-                      name="Copy of EmployeeKey"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output].Columns[EmployeeKey]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Load NorthwindMart SaleFact\Data Conversion.Outputs[Data Conversion Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Data Conversion Error Output"
-                  synchronousInputId="Package\Load NorthwindMart SaleFact\Data Conversion.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Load NorthwindMart SaleFact\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Load NorthwindMart SaleFact\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Load NorthwindMart SaleFact\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Load NorthwindMart SaleFact\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
           </components>
           <paths>
             <path
               refId="Package\Load NorthwindMart SaleFact.Paths[ADO NET Source Output]"
-              endId="Package\Load NorthwindMart SaleFact\Data Conversion.Inputs[Data Conversion Input]"
-              name="ADO NET Source Output"
-              startId="Package\Load NorthwindMart SaleFact\ADO NET Source.Outputs[ADO NET Source Output]" />
-            <path
-              refId="Package\Load NorthwindMart SaleFact.Paths[Data Conversion Output]"
               endId="Package\Load NorthwindMart SaleFact\ADO NET Destination.Inputs[ADO NET Destination Input]"
-              name="Data Conversion Output"
-              startId="Package\Load NorthwindMart SaleFact\Data Conversion.Outputs[Data Conversion Output]" />
+              name="ADO NET Source Output"
+              startId="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source.Outputs[ADO NET Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -2911,18 +2935,21 @@ JOIN Categories AS Cat ON Prod.CategoryID = Cat.CategoryID</property>
                   name="ADO NET Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Load NorthwindMart ShipperDimension\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of ShipperID]"
-                      cachedDataType="i4"
-                      cachedName="Copy of ShipperID"
-                      externalMetadataColumnId="Package\Load NorthwindMart ShipperDimension\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[ShipperID]"
-                      lineageId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ShipperID]" />
-                    <inputColumn
-                      refId="Package\Load NorthwindMart ShipperDimension\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of CompanyName]"
-                      cachedDataType="wstr"
+                      refId="Package\Load NorthwindMart ShipperDimension\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[ShipperID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
                       cachedLength="50"
-                      cachedName="Copy of CompanyName"
+                      cachedName="ShipperID"
+                      externalMetadataColumnId="Package\Load NorthwindMart ShipperDimension\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[ShipperID]"
+                      lineageId="Package\Load NorthwindMart ShipperDimension\Flat File Source.Outputs[Flat File Source Output].Columns[ShipperID]" />
+                    <inputColumn
+                      refId="Package\Load NorthwindMart ShipperDimension\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[CompanyName]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CompanyName"
                       externalMetadataColumnId="Package\Load NorthwindMart ShipperDimension\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[CompanyName]"
-                      lineageId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CompanyName]" />
+                      lineageId="Package\Load NorthwindMart ShipperDimension\Flat File Source.Outputs[Flat File Source Output].Columns[CompanyName]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2960,111 +2987,6 @@ JOIN Categories AS Cat ON Prod.CategoryID = Cat.CategoryID</property>
                       refId="Package\Load NorthwindMart ShipperDimension\ADO NET Destination.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\Load NorthwindMart ShipperDimension\ADO NET Destination.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Load NorthwindMart ShipperDimension\Data Conversion"
-              componentClassID="Microsoft.DataConvert"
-              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-              description="Data Conversion"
-              name="Data Conversion"
-              usesDispositions="true">
-              <inputs>
-                <input
-                  refId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Inputs[Data Conversion Input]"
-                  name="Data Conversion Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Inputs[Data Conversion Input].Columns[ShipperID]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="ShipperID"
-                      lineageId="Package\Load NorthwindMart ShipperDimension\Flat File Source.Outputs[Flat File Source Output].Columns[ShipperID]" />
-                    <inputColumn
-                      refId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Inputs[Data Conversion Input].Columns[CompanyName]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="CompanyName"
-                      lineageId="Package\Load NorthwindMart ShipperDimension\Flat File Source.Outputs[Flat File Source Output].Columns[CompanyName]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Outputs[Data Conversion Output]"
-                  exclusionGroup="1"
-                  name="Data Conversion Output"
-                  synchronousInputId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ShipperID]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ShipperID]"
-                      name="Copy of ShipperID"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Load NorthwindMart ShipperDimension\Flat File Source.Outputs[Flat File Source Output].Columns[ShipperID]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CompanyName]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      length="50"
-                      lineageId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CompanyName]"
-                      name="Copy of CompanyName"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Load NorthwindMart ShipperDimension\Flat File Source.Outputs[Flat File Source Output].Columns[CompanyName]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Outputs[Data Conversion Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Data Conversion Error Output"
-                  synchronousInputId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -3202,13 +3124,8 @@ JOIN Categories AS Cat ON Prod.CategoryID = Cat.CategoryID</property>
           </components>
           <paths>
             <path
-              refId="Package\Load NorthwindMart ShipperDimension.Paths[Data Conversion Output]"
-              endId="Package\Load NorthwindMart ShipperDimension\ADO NET Destination.Inputs[ADO NET Destination Input]"
-              name="Data Conversion Output"
-              startId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Outputs[Data Conversion Output]" />
-            <path
               refId="Package\Load NorthwindMart ShipperDimension.Paths[Flat File Source Output]"
-              endId="Package\Load NorthwindMart ShipperDimension\Data Conversion.Inputs[Data Conversion Input]"
+              endId="Package\Load NorthwindMart ShipperDimension\ADO NET Destination.Inputs[ADO NET Destination Input]"
               name="Flat File Source Output"
               startId="Package\Load NorthwindMart ShipperDimension\Flat File Source.Outputs[Flat File Source Output]" />
           </paths>
@@ -4121,7 +4038,7 @@ Where ShippedDate IS NOT NULL</property>
           Id="Package\Empty Northwind Mart"
           TopLeft="691.583333333333,0.0992063492065256" />
         <NodeLayout
-          Size="307,42"
+          Size="281,42"
           Id="Package\Load NorthwindMart CustomerDimension"
           TopLeft="100,148.916666666666" />
         <NodeLayout
@@ -4133,43 +4050,43 @@ Where ShippedDate IS NOT NULL</property>
           Id="Package\Load NorthwindMart ProductDimension"
           TopLeft="648.47619047619,421.761904761904" />
         <NodeLayout
-          Size="487,42"
+          Size="380,42"
           Id="Package\Load NorthwindMart SaleFact"
-          TopLeft="540.380952380952,845.571428571429" />
+          TopLeft="590.952380952381,751" />
         <NodeLayout
           Size="271,42"
           Id="Package\Load NorthwindMart ShipperDimension"
           TopLeft="931.285714285714,313.765873015873" />
         <NodeLayout
-          Size="349,42"
+          Size="257,42"
           Id="Package\Load NorthwindMart TimeDimension"
-          TopLeft="1109.33333333333,147.583333333333" />
+          TopLeft="1109.33333333333,145.583333333333" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="725.583333333333,42.0992063492065">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-472.083333333333,106.81746031746"
+              EndConnector="-485.083333333333,106.817460317459"
               Start="0,0"
-              End="-472.083333333333,99.3174603174598">
+              End="-485.083333333333,99.3174603174595">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,24.3733878968253" />
+                    End="0,24.3733878968252" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,24.3733878968253"
-                    Point2="0,28.3733878968253"
-                    Point3="-4,28.3733878968253" />
+                    Point1="0,24.3733878968252"
+                    Point2="0,28.3733878968252"
+                    Point3="-4,28.3733878968252" />
                   <mssgle:LineSegment
-                    End="-468.083333333333,28.3733878968253" />
+                    End="-481.083333333333,28.3733878968252" />
                   <mssgle:CubicBezierSegment
-                    Point1="-468.083333333333,28.3733878968253"
-                    Point2="-472.083333333333,28.3733878968253"
-                    Point3="-472.083333333333,32.3733878968253" />
+                    Point1="-481.083333333333,28.3733878968252"
+                    Point2="-485.083333333333,28.3733878968252"
+                    Point3="-485.083333333333,32.3733878968252" />
                   <mssgle:LineSegment
-                    End="-472.083333333333,99.3174603174598" />
+                    End="-485.083333333333,99.3174603174595" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4218,26 +4135,26 @@ Where ShippedDate IS NOT NULL</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="438.249999999999,105.484126984126"
+              EndConnector="392.249999999997,103.484126984126"
               Start="0,0"
-              End="438.249999999999,97.9841269841265">
+              End="392.249999999997,95.9841269841265">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,24.0192212301586" />
+                    End="0,23.4879712301586" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,24.0192212301586"
-                    Point2="0,28.0192212301586"
-                    Point3="4,28.0192212301586" />
+                    Point1="0,23.4879712301586"
+                    Point2="0,27.4879712301586"
+                    Point3="4,27.4879712301586" />
                   <mssgle:LineSegment
-                    End="434.249999999999,28.0192212301586" />
+                    End="388.249999999997,27.4879712301586" />
                   <mssgle:CubicBezierSegment
-                    Point1="434.249999999999,28.0192212301586"
-                    Point2="438.249999999999,28.0192212301586"
-                    Point3="438.249999999999,32.0192212301586" />
+                    Point1="388.249999999997,27.4879712301586"
+                    Point2="392.249999999997,27.4879712301586"
+                    Point3="392.249999999997,31.4879712301586" />
                   <mssgle:LineSegment
-                    End="438.249999999999,97.9841269841265" />
+                    End="392.249999999997,95.9841269841265" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4282,7 +4199,7 @@ Where ShippedDate IS NOT NULL</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="784.779761904762,42.0992063492065">
+          TopLeft="784.779761904761,42.0992063492065">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -4308,26 +4225,26 @@ Where ShippedDate IS NOT NULL</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="203.630952380952,489.805555555556"
+              EndConnector="218.535714285713,395.234126984127"
               Start="0,0"
-              End="203.630952380952,482.305555555556">
+              End="218.535714285713,387.734126984127">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,288.920964660936" />
+                    End="0,232.14617649995" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,288.920964660936"
-                    Point2="0,292.920964660936"
-                    Point3="4,292.920964660936" />
+                    Point1="0,232.14617649995"
+                    Point2="0,236.14617649995"
+                    Point3="4,236.14617649995" />
                   <mssgle:LineSegment
-                    End="199.630952380952,292.920964660936" />
+                    End="214.535714285713,236.14617649995" />
                   <mssgle:CubicBezierSegment
-                    Point1="199.630952380952,292.920964660936"
-                    Point2="203.630952380952,292.920964660936"
-                    Point3="203.630952380952,296.920964660936" />
+                    Point1="214.535714285713,236.14617649995"
+                    Point2="218.535714285713,236.14617649995"
+                    Point3="218.535714285713,240.14617649995" />
                   <mssgle:LineSegment
-                    End="203.630952380952,482.305555555556" />
+                    End="218.535714285713,387.734126984127" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4338,30 +4255,30 @@ Where ShippedDate IS NOT NULL</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="253.5,190.916666666666">
+          TopLeft="240.5,190.916666666666">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="370.714285714285,654.654761904763"
+              EndConnector="416.452380952381,560.083333333334"
               Start="0,0"
-              End="370.714285714285,647.154761904763">
+              End="416.452380952381,552.583333333334">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,482.991144166425" />
+                    End="0,411.686848958334" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,482.991144166425"
-                    Point2="0,486.991144166425"
-                    Point3="4,486.991144166425" />
+                    Point1="0,411.686848958334"
+                    Point2="0,415.686848958334"
+                    Point3="4,415.686848958334" />
                   <mssgle:LineSegment
-                    End="366.714285714285,486.991144166425" />
+                    End="412.452380952381,415.686848958334" />
                   <mssgle:CubicBezierSegment
-                    Point1="366.714285714285,486.991144166425"
-                    Point2="370.714285714285,486.991144166425"
-                    Point3="370.714285714285,490.991144166425" />
+                    Point1="412.452380952381,415.686848958334"
+                    Point2="416.452380952381,415.686848958334"
+                    Point3="416.452380952381,419.686848958334" />
                   <mssgle:LineSegment
-                    End="370.714285714285,647.154761904763" />
+                    End="416.452380952381,552.583333333334" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4372,18 +4289,18 @@ Where ShippedDate IS NOT NULL</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7]"
-          TopLeft="783.928571428571,463.761904761904">
+          TopLeft="782.464285714285,463.761904761904">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,381.809523809524"
+              EndConnector="0,287.238095238096"
               Start="0,0"
-              End="0,374.309523809524">
+              End="0,279.738095238096">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,374.309523809524" />
+                    End="0,279.738095238096" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4398,26 +4315,26 @@ Where ShippedDate IS NOT NULL</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-203.071428571428,489.805555555556"
+              EndConnector="-223.833333333333,395.234126984127"
               Start="0,0"
-              End="-203.071428571428,482.305555555556">
+              End="-223.833333333333,387.734126984127">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,288.920964660936" />
+                    End="0,232.14617649995" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,288.920964660936"
-                    Point2="0,292.920964660936"
-                    Point3="-4,292.920964660936" />
+                    Point1="0,232.14617649995"
+                    Point2="0,236.14617649995"
+                    Point3="-4,236.14617649995" />
                   <mssgle:LineSegment
-                    End="-199.071428571428,292.920964660936" />
+                    End="-219.833333333333,236.14617649995" />
                   <mssgle:CubicBezierSegment
-                    Point1="-199.071428571428,292.920964660936"
-                    Point2="-203.071428571428,292.920964660936"
-                    Point3="-203.071428571428,296.920964660936" />
+                    Point1="-219.833333333333,236.14617649995"
+                    Point2="-223.833333333333,236.14617649995"
+                    Point3="-223.833333333333,240.14617649995" />
                   <mssgle:LineSegment
-                    End="-203.071428571428,482.305555555556" />
+                    End="-223.833333333333,387.734126984127" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4428,30 +4345,30 @@ Where ShippedDate IS NOT NULL</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 9]"
-          TopLeft="1283.83333333333,189.583333333333">
+          TopLeft="1237.83333333333,187.583333333333">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-340.285714285713,655.988095238096"
+              EndConnector="-332.88095238095,563.416666666667"
               Start="0,0"
-              End="-340.285714285713,648.488095238096">
+              End="-332.88095238095,555.916666666667">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,483.982997526913" />
+                    End="0,414.160807291667" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,483.982997526913"
-                    Point2="0,487.982997526913"
-                    Point3="-4,487.982997526913" />
+                    Point1="0,414.160807291667"
+                    Point2="0,418.160807291667"
+                    Point3="-4,418.160807291667" />
                   <mssgle:LineSegment
-                    End="-336.285714285713,487.982997526913" />
+                    End="-328.88095238095,418.160807291667" />
                   <mssgle:CubicBezierSegment
-                    Point1="-336.285714285713,487.982997526913"
-                    Point2="-340.285714285713,487.982997526913"
-                    Point3="-340.285714285713,491.982997526913" />
+                    Point1="-328.88095238095,418.160807291667"
+                    Point2="-332.88095238095,418.160807291667"
+                    Point3="-332.88095238095,422.160807291667" />
                   <mssgle:LineSegment
-                    End="-340.285714285713,648.488095238096" />
+                    End="-332.88095238095,555.916666666667" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4553,13 +4470,13 @@ Where ShippedDate IS NOT NULL</property>
           Id="Package\Load NorthwindMart EmployeeDimension\ADO NET Source (Employee Table)"
           TopLeft="0,104" />
         <NodeLayout
-          Size="294,42"
-          Id="Package\Load NorthwindMart EmployeeDimension\ADO NET Destination(EMployeeDimension)"
-          TopLeft="238,228" />
-        <NodeLayout
           Size="198,42"
           Id="Package\Load NorthwindMart EmployeeDimension\Derived EmployeeName"
           TopLeft="323,102" />
+        <NodeLayout
+          Size="294,42"
+          Id="Package\Load NorthwindMart EmployeeDimension\ADO NET Destination(EMployeeDimension)"
+          TopLeft="238,228" />
         <EdgeLayout
           Id="Package\Load NorthwindMart EmployeeDimension.Paths[ADO NET Source Output]"
           TopLeft="255,124">
@@ -4582,58 +4499,32 @@ Where ShippedDate IS NOT NULL</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="161,42"
-          Id="Package\Load NorthwindMart EmployeeDimension\Data Conversion"
-          TopLeft="572.5,109.990740740741" />
         <EdgeLayout
           Id="Package\Load NorthwindMart EmployeeDimension.Paths[Derived Column Output]"
-          TopLeft="521,126.99537037037">
+          TopLeft="422,144">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="51.5,0"
+              EndConnector="-37,84"
               Start="0,0"
-              End="44,0">
+              End="-37,76.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="44,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load NorthwindMart EmployeeDimension.Paths[Data Conversion Output]"
-          TopLeft="653,151.990740740741">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-268,76.0092592592593"
-              Start="0,0"
-              End="-268,68.5092592592593">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,34.0046296296296" />
+                    End="0,38" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,34.0046296296296"
-                    Point2="0,38.0046296296296"
-                    Point3="-4,38.0046296296296" />
+                    Point1="0,38"
+                    Point2="0,42"
+                    Point3="-4,42" />
                   <mssgle:LineSegment
-                    End="-264,38.0046296296296" />
+                    End="-33,42" />
                   <mssgle:CubicBezierSegment
-                    Point1="-264,38.0046296296296"
-                    Point2="-268,38.0046296296296"
-                    Point3="-268,42.0046296296296" />
+                    Point1="-33,42"
+                    Point2="-37,42"
+                    Point3="-37,46" />
                   <mssgle:LineSegment
-                    End="-268,68.5092592592593" />
+                    End="-37,76.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4669,37 +4560,25 @@ Where ShippedDate IS NOT NULL</property>
         <NodeLayout
           Size="166,42"
           Id="Package\Load NorthwindMart ProductDimension\ADO NET Source"
-          TopLeft="35.5,35.5" />
+          TopLeft="35.5,59.5" />
         <NodeLayout
           Size="186,42"
           Id="Package\Load NorthwindMart ProductDimension\ADO NET Destination"
-          TopLeft="416.5,123.5" />
+          TopLeft="540.5,58.5" />
         <EdgeLayout
           Id="Package\Load NorthwindMart ProductDimension.Paths[ADO NET Source Output]"
-          TopLeft="118.5,77.5">
+          TopLeft="201.5,80">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="391,46"
+              EndConnector="339,0"
               Start="0,0"
-              End="391,38.5">
+              End="331.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,19" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,19"
-                    Point2="0,23"
-                    Point3="4,23" />
-                  <mssgle:LineSegment
-                    End="387,23" />
-                  <mssgle:CubicBezierSegment
-                    Point1="387,23"
-                    Point2="391,23"
-                    Point3="391,27" />
-                  <mssgle:LineSegment
-                    End="391,38.5" />
+                    End="331.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4731,79 +4610,41 @@ Where ShippedDate IS NOT NULL</property>
     design-time-name="Package\Load NorthwindMart SaleFact">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="161,42"
-          Id="Package\Load NorthwindMart SaleFact\Data Conversion"
-          TopLeft="354,133" />
+          Size="268,42"
+          Id="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source"
+          TopLeft="35.5,35.5" />
         <NodeLayout
           Size="186,42"
           Id="Package\Load NorthwindMart SaleFact\ADO NET Destination"
-          TopLeft="104,197" />
-        <NodeLayout
-          Size="166,42"
-          Id="Package\Load NorthwindMart SaleFact\ADO NET Source"
-          TopLeft="82,97" />
+          TopLeft="512.166666666667,109.944444444444" />
         <EdgeLayout
           Id="Package\Load NorthwindMart SaleFact.Paths[ADO NET Source Output]"
-          TopLeft="248,118">
+          TopLeft="169.5,77.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="106,36"
+              EndConnector="435.666666666667,32.4444444444445"
               Start="0,0"
-              End="98.5,36">
+              End="435.666666666667,24.9444444444445">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="49,0" />
+                    End="0,12.2222222222222" />
                   <mssgle:CubicBezierSegment
-                    Point1="49,0"
-                    Point2="53,0"
-                    Point3="53,4" />
+                    Point1="0,12.2222222222222"
+                    Point2="0,16.2222222222222"
+                    Point3="4,16.2222222222222" />
                   <mssgle:LineSegment
-                    End="53,32" />
+                    End="431.666666666667,16.2222222222222" />
                   <mssgle:CubicBezierSegment
-                    Point1="53,32"
-                    Point2="53,36"
-                    Point3="57,36" />
+                    Point1="431.666666666667,16.2222222222222"
+                    Point2="435.666666666667,16.2222222222222"
+                    Point3="435.666666666667,20.2222222222222" />
                   <mssgle:LineSegment
-                    End="98.5,36" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load NorthwindMart SaleFact.Paths[Data Conversion Output]"
-          TopLeft="354,159.666666666667">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-64,58.3333333333333"
-              Start="0,0"
-              End="-56.5,58.3333333333333">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-23.0091743119266,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-23.0091743119266,0"
-                    Point2="-27.0091743119266,0"
-                    Point3="-27.0091743119266,4" />
-                  <mssgle:LineSegment
-                    End="-27.0091743119266,54.3333333333333" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-27.0091743119266,54.3333333333333"
-                    Point2="-27.0091743119266,58.3333333333333"
-                    Point3="-31.0091743119266,58.3333333333333" />
-                  <mssgle:LineSegment
-                    End="-56.5,58.3333333333333" />
+                    End="435.666666666667,24.9444444444445" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4815,23 +4656,11 @@ Where ShippedDate IS NOT NULL</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load NorthwindMart SaleFact\ADO NET Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Load NorthwindMart ShipperDimension">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="161,42"
-          Id="Package\Load NorthwindMart ShipperDimension\Data Conversion"
-          TopLeft="319,97" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="186,42"
           Id="Package\Load NorthwindMart ShipperDimension\ADO NET Destination"
@@ -4842,52 +4671,30 @@ Where ShippedDate IS NOT NULL</property>
           TopLeft="95.5,95.5" />
         <EdgeLayout
           Id="Package\Load NorthwindMart ShipperDimension.Paths[Flat File Source Output]"
-          TopLeft="251.5,117.25">
+          TopLeft="173.5,137.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="67.5,0"
+              EndConnector="387,29"
               Start="0,0"
-              End="60,0">
+              End="387,21.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="60,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load NorthwindMart ShipperDimension.Paths[Data Conversion Output]"
-          TopLeft="399.5,139">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="161,27.5"
-              Start="0,0"
-              End="161,20">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,9.75" />
+                    End="0,10.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,9.75"
-                    Point2="0,13.75"
-                    Point3="4,13.75" />
+                    Point1="0,10.5"
+                    Point2="0,14.5"
+                    Point3="4,14.5" />
                   <mssgle:LineSegment
-                    End="157,13.75" />
+                    End="383,14.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="157,13.75"
-                    Point2="161,13.75"
-                    Point3="161,17.75" />
+                    Point1="383,14.5"
+                    Point2="387,14.5"
+                    Point3="387,18.5" />
                   <mssgle:LineSegment
-                    End="161,20" />
+                    End="387,21.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4996,6 +4803,14 @@ Where ShippedDate IS NOT NULL</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+    design-time-name="Package\Load NorthwindMart TimeDimension\ADO NET Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Load NorthwindMart TimeDimension\ADO NET Destination">
     <Properties>
       <Property>
@@ -5004,7 +4819,15 @@ Where ShippedDate IS NOT NULL</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load NorthwindMart TimeDimension\ADO NET Source">
+    design-time-name="Package\Load NorthwindMart SaleFact\ADO NET CustomerDimension Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load NorthwindMart SaleFact\ADO NET Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
