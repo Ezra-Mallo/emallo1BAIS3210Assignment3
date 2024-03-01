@@ -1,11 +1,19 @@
 ﻿--Assignment 3
 --Control Flow SQL for >> Empty Northwind Mart 
+--DROP TABLE SaleFact;
+--DROP TABLE CustomerDimension;
+--DROP TABLE TimeDimension;
+--DROP TABLE EmployeeDimension;
+--DROP TABLE ShipperDimension;
+--DROP TABLE ProductDimension;
+
+DELETE FROM SaleFact;
 DELETE FROM CustomerDimension;
 DELETE FROM TimeDimension;
 DELETE FROM EmployeeDimension;
 DELETE FROM ShipperDimension;
 DELETE FROM ProductDimension;
-DELETE FROM SaleFact;
+
 
 
 

@@ -8,7 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Folder", "Solution Folder", "{E9D865BC-6964-4629-B6F4-161218DD834C}"
 	ProjectSection(SolutionItems) = preProject
 		2nd Assignment SQLQuery.sql = 2nd Assignment SQLQuery.sql
-		3rd Assifnment.sql = 3rd Assifnment.sql
+		3rd Assignment.sql = 3rd Assignment.sql
 	EndProjectSection
 EndProject
 Global
